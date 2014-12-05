@@ -5,28 +5,27 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Jogo</title>
-        <link href="css/stylesheet.css" type="text/css" rel="stylesheet">
-        <script src="js/js.js" type="text/javascript" ></script>
-    </head>
-    <body >
-        
-        corpo
-        <div id="quadro">
-            <div id="img-fundo">
-                <img src="img/light-novel-quadrinize.jpg">
-            </div>
-            <div id="dialogo">
-                <h1 id="texto-dialogo">Texto 1</h1>
-            </div>
-            <button onclick="altera()">Dê alegria para o Daniel</button>
+<head>
+	<meta charset="UTF-8">
+	<title>Jogo</title>
+	<?php require 'includes/css.php';?>
+</head>
+<body>
+	<div class='container'>
+		<div class='row'>
+				<div class='center-block' id="quadro">
+					<div id="img-fundo">
+						<img src="img/light-novel-quadrinize.jpg" class='center-block'>
+					</div>
+					<div id="dialogo">
+						<h1 id="texto-dialogo">Texto 1</h1>
+					</div>
+					<button onclick="altera()">Dê alegria para o Daniel</button>
+				</div>
 
-        </div>
-
-        <?php
-        // put your code here
-        ?>
-    </body>
+		</div>
+	</div>
+	<?php require 'includes/js.php';?>
+	</body>
 </html>
+	

@@ -5,9 +5,9 @@ and open the template in the editor.
 */
 /* 
     Created on : 05/12/2014, 05:00:05
-    Author     : José Renato
+    Author     : José Renato & Willian Soares
 */
-body{
+/*body{
     alignment-adjust: central;
     margin:0 auto;
     padding:0;
@@ -16,12 +16,7 @@ body{
     vertical-align:middle;
     border : 2px solid black;
 }
-#img-fundo{
-    margin: auto;
-    width: 100%;
-    height: 80%;
-    border: 1px aqua;
-}
+
 #quadro{
     alignment-adjust: central;
     margin: auto;
@@ -41,4 +36,11 @@ body{
 #img-dialogo{
     height: 100%;
     width: 20%;
+}*/
+
+body {
+    padding-top: 70px; 
+}
+#img-fundo{
+    border: 1px solid #333;
 }
