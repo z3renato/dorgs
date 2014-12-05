@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05/12/2014, 05:00:05
+    Author     : José Renato
+*/
+body{
+    alignment-adjust: central;
+    margin:0 auto;
+    padding:0;
+    list-style:none;
+    text-decoration:none;
+    vertical-align:middle;
+    border : 2px solid black;
+}
+#img-fundo{
+    margin: auto;
+    width: 100%;
+    height: 80%;
+    border: 1px aqua;
+}
+#quadro{
+    alignment-adjust: central;
+    margin: auto;
+    border: solid 1px blue;
+    width: 50em;
+    height: 30em;
+    //background-image: url('../img/light-novel-quadrinize.jpg');
+    background-repeat: no-repeat;
+    margin-bottom: auto;
+}
+#dialogo{
+    border: 1px solid red;
+    margin: auto;
+    height: 20%;
+    margin-bottom: auto;
+}
+#img-dialogo{
+    height: 100%;
+    width: 20%;
+}
