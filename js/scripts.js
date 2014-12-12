@@ -7,3 +7,19 @@
 function altera() {
     document.getElementById("texto-dialogo").innerHTML="NOVO TEXTO";
 }
+
+//Função de Drag&Drop
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("Text", ev.target.id);
+}
+
+function drop(ev) {
+    var data = ev.dataTransfer.getData("Text");
+    ev.target.appendChild(document.getElementById(data));
+    ev.preventDefault();
+}
+// /Função de Drag&Drop

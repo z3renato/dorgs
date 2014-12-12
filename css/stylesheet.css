@@ -23,7 +23,8 @@ and open the template in the editor.
     border: solid 1px blue;
     width: 50em;
     height: 30em;
-    //background-image: url('../img/light-novel-quadrinize.jpg');
+    //b
+    ackground-image: url('../img/light-novel-quadrinize.jpg');
     background-repeat: no-repeat;
     margin-bottom: auto;
 }
@@ -39,8 +40,58 @@ and open the template in the editor.
 }*/
 
 body {
-    padding-top: 70px; 
+    height: 105%;
 }
 #img-fundo{
     border: 1px solid #333;
+}
+
+.opcao{
+    height: 75px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+}
+.escolha-holder{
+    height: 75px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    line-height: 1.42857;
+    padding: 6px 12px; 
+}
+.escolha{
+    background: #ccc;
+    border-radius: 4px;
+    border: 1px solid #555;
+    width: 158px;
+    height: 71px; 
+    margin-bottom: 0px; 
+    margin-left: 10px; 
+    margin-top: -4px;
+}
+
+#escolha-homem{
+    border: 2px solid #00ADEF;
+}
+#escolha-mulher{
+    border: 2px solid #ED008C;
+}
+#homem{
+    background: #00ADEF;
+    font-size: 50px;
+}
+#mulher{
+    background :#ED008C;
+    font-size: 50px;
 }
