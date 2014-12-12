@@ -12,7 +12,7 @@ and open the template in the editor.
         <script src="js/js.js" type="text/javascript" ></script>
     </head>
     <body >
-        
+
         corpo
         <div id="quadro">
             <div id="img-fundo">
@@ -24,6 +24,12 @@ and open the template in the editor.
             <button onclick="altera()">Dê alegria para o Daniel</button>
 
         </div>
+        <div id="drop" ondrop="drop(event)" ondragover="allowDrop(event)" ></div>
+
+        <img id="sexoFeminino" src="img/feminino.png" draggable="true"
+             ondragstart="drag(event)" width="200" height="150">
+        <img id="sexoMasculino" src="img/masculino.png" draggable="true"
+             ondragstart="drag(event)"  width="200" height="150">
 
         <?php
         // put your code here

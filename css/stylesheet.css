@@ -42,3 +42,8 @@ body{
     height: 100%;
     width: 20%;
 }
+#drop{
+    border: 1px solid black;
+    height: 150px;
+    width: 200px;
+}
