@@ -66,7 +66,7 @@ body {
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
     color: #555;
     display: block;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.42857;
     padding: 6px 12px; 
 }
@@ -79,11 +79,6 @@ body {
     margin-bottom: 0px; 
     margin-left: 10px; 
     margin-top: -4px;
-}
-
-#escolha-group{
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 #escolha-homem{
@@ -105,8 +100,3 @@ body {
     height: 150px;
     width: 200px;
 }
-
-html body div.container div#quadro.center-block div#dialogo div.row div.form-group.col-md-2.col-md-offset-5 input.form-control{
-    font-size: 16px;
-    height: 40px;
-}   
