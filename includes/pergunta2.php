@@ -4,7 +4,7 @@
 			<div id="dialogo">
 					<h2 id="texto-dialogo" class='text-center'>Qual sua Idade?</h2>
 				<div class='row'>
-					<div class="form-group col-md-2 col-md-offset-5">
+					<div class="form-group col-xs-2 col-xs-offset-5">
 						<input type="text" class="form-control " placeholder="Idade">
 				</div>
 			</div>
