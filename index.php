@@ -13,7 +13,7 @@ and open the template in the editor.
 <body>
 	<div class='container'>
 		<div class='center-block' id="quadro">
-			<?php require 'includes/pergunta5.php';?>
+			<?php require 'includes/pergunta4.php';?>
 			<!--Fazer aparecer somente após selecionar uma opcao-->
 			
 			<button class="btn btn-primary btn-lg col-xs-2 col-xs-offset-5" id="enviar">Enviar</button>

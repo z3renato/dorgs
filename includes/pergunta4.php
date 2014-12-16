@@ -8,7 +8,8 @@
 	</div>
 	<div class='row' id='escolha-group'>
 		<div class='escolha-holder col-xs-2' ondrop="drop(event)" ondragover="allowDrop(event)" >
-			<span class='escolha col-xs-2 col-xs-offset-1 text-center' draggable="true" id="juntos" ondragstart="drag(event)">Vivem Juntos</span>
+                    <span class='escolha col-xs-2 col-xs-offset-1 text-center' draggable="true" id="juntos" 
+                          ondragstart="drag(event)" ondragend="exibe('porra!')">Vivem Juntos</span>
 		</div>
 		<div class='escolha-holder col-xs-2 col-xs-offset-1' ondrop="drop(event)" ondragover="allowDrop(event)" >
 			<span class='escolha col-xs-2  text-center' draggable="true" id="separados" ondragstart="drag(event)">Vivem Separados</span>

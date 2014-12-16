@@ -23,3 +23,6 @@ function drop(ev) {
     ev.preventDefault();
 }
 // /Função de Drag&Drop
+function exibe(texto){
+    window.alert(texto);
+}
