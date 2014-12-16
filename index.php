@@ -16,7 +16,7 @@ and open the template in the editor.
 			<?php require 'includes/pergunta4.php';?>
 			<!--Fazer aparecer somente após selecionar uma opcao-->
 			
-			<button class="btn btn-primary btn-lg col-xs-2 col-xs-offset-5" id="enviar">Enviar</button>
+                        
 		</div>
 	</div>
 	<?php require 'includes/js.php';?>

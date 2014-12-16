@@ -21,6 +21,12 @@ function drop(ev) {
     var data = ev.dataTransfer.getData("Text");
     ev.target.appendChild(document.getElementById(data));
     ev.preventDefault();
+    
+    document.getElementById("op-4").id="juntos";
+    document.getElementById("separados").draggable = false;
+    document.getElementById("morto").draggable = false;
+    document.getElementById("outro").draggable = false;
+  
 }
 // /Função de Drag&Drop
 function exibe(texto){

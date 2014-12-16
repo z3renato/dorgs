@@ -9,7 +9,7 @@
 	<div class='row' id='escolha-group'>
 		<div class='escolha-holder col-xs-2' ondrop="drop(event)" ondragover="allowDrop(event)" >
                     <span class='escolha col-xs-2 col-xs-offset-1 text-center' draggable="true" id="juntos" 
-                          ondragstart="drag(event)" ondragend="exibe('porra!')">Vivem Juntos</span>
+                          ondragstart="drag(event)" >Vivem Juntos</span>
 		</div>
 		<div class='escolha-holder col-xs-2 col-xs-offset-1' ondrop="drop(event)" ondragover="allowDrop(event)" >
 			<span class='escolha col-xs-2  text-center' draggable="true" id="separados" ondragstart="drag(event)">Vivem Separados</span>
@@ -20,5 +20,6 @@
 		<div class='escolha-holder col-xs-2 col-xs-offset-1' ondrop="drop(event)" ondragover="allowDrop(event)" >
 			<span class='escolha col-xs-2  text-center' draggable="true" id="outro" ondragstart="drag(event)">Outro:</span>
 		</div>	
+            <button  class="btn btn-primary btn-lg col-xs-2 col-xs-offset-5" id="enviar" onclick="">Enviar</button>
 	</div>
 </div>
