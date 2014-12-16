@@ -14,7 +14,7 @@
 			<span class='escolha col-xs-2  text-center' draggable="true" id="separados" ondragstart="drag(event)">Vivem Separados</span>
 		</div>
 		<div class='escolha-holder col-xs-2 col-xs-offset-2' ondrop="drop(event)" ondragover="allowDrop(event)" >
-			<span class='escolha col-xs-2  text-center' draggable="true id="morto"" ondragstart="drag(event)">Um deles está falecido(ou os dois)</span>
+			<span class='escolha col-xs-2  text-center' draggable="true" id="morto" ondragstart="drag(event)">Um deles está falecido(ou os dois)</span>
 		</div>
 		<div class='escolha-holder col-xs-2 col-xs-offset-1' ondrop="drop(event)" ondragover="allowDrop(event)" >
 			<span class='escolha col-xs-2  text-center' draggable="true" id="outro" ondragstart="drag(event)">Outro:</span>
