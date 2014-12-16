@@ -16,16 +16,21 @@ function allowDrop(ev) {
 function drag(ev) {
     ev.dataTransfer.setData("Text", ev.target.id);
 }
+function getConteudo(){
+    var qtd = $("#op-4 > span").text("id");
+    
+    alert(qtd);
+}
 
 function drop(ev) {
     var data = ev.dataTransfer.getData("Text");
     ev.target.appendChild(document.getElementById(data));
     ev.preventDefault();
-    
-    document.getElementById("op-4").id="juntos";
-    document.getElementById("separados").draggable = false;
-    document.getElementById("morto").draggable = false;
-    document.getElementById("outro").draggable = false;
+//    
+//    document.getElementById("op-4").id="juntos";
+//    document.getElementById("separados").draggable = false;
+//    document.getElementById("morto").draggable = false;
+//    document.getElementById("outro").draggable = false;
   
 }
 // /Função de Drag&Drop
