@@ -13,7 +13,7 @@ and open the template in the editor.
 <body>
 	<div class='container'>
 		<div class='center-block' id="quadro">
-			<?php require 'includes/pergunta2.php';?>
+			<?php require 'includes/pergunta3.php';?>
 			<!--Fazer aparecer somente após selecionar uma opcao-->
 			
                         
