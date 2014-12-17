@@ -17,7 +17,7 @@ function drag(ev) {
     ev.dataTransfer.setData("Text", ev.target.id);
 }
 function getConteudo(){
-    var qtd = $("#op-4 > span").text("id");
+    var qtd = $("#op > span").size();
     
     alert(qtd);
 }

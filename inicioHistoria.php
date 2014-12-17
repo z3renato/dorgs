@@ -19,13 +19,13 @@ and open the template in the editor.
                 <div id="dialogo">
 
 
-                    <h2 id="texto-dialogo" class='text-center'>Olá, tudo bem? Irei te apresentar
-                        uma história e ao longo dela farei algumas perguntas. Vou começar te conhecendo melhor. Vamos lá?</h2>
+                    <h2 id="texto-dialogo" class='text-center'>Bem, agora que já te conheço melhor, 
+                        vou te contar uma história e você responderá de acordo com aquilo que você se identifica</h2>
 
                 </div>
                 <div class='row'>
 
-                    <a  class="btn btn-primary btn-lg col-xs-2 col-xs-offset-5" id="enviar" href="pergunta1.php"  >Vamos lá!</a>
+                    <a  class="btn btn-primary btn-lg col-xs-2 col-xs-offset-5" id="enviar" href="pergunta5.php"  >Ok! Vamos começar!</a>
 
                 </div>
 
