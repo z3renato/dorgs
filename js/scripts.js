@@ -4,7 +4,9 @@
  * and open the template in the editor.
  */
 escolha="";
-
+function getResposta(){
+    return escolha;
+}
 function setEscolha(escolha){
     this.escolha = escolha;
 }
