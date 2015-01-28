@@ -4,7 +4,7 @@
     <?php require 'includes/css.php'; ?>
 </head>
 <div id="img-fundo">
-	<img src="img/quadro4.png" class='center-block'>
+	<img src="img/cenario1-homem.png" class='center-block'>
 </div>
 <div id="dialogo">
 		<h2 id="texto-dialogo" class='text-center'>Quantas vezes você faltou no último mês?</h2>
