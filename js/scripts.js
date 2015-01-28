@@ -10,6 +10,11 @@ function getResposta(){
 function setEscolha(escolha){
     this.escolha = escolha;
 }
+function addEscolha(esc){
+   arrayEscolha.add(esc);
+   
+   this.escolha+=esc;
+}
 function altera() {
     document.getElementById("texto-dialogo").innerHTML = "NOVO TEXTO";
 }
@@ -29,7 +34,9 @@ function drag(ev) {
 }
 function getConteudo() {
     var qtd = $("#op > span").contents().size();
-
+    if(qtd>0){
+        document.getElementById("op").draggable = false;
+    }
    
     return qtd;
 }

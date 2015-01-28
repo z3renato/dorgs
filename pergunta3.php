@@ -8,32 +8,37 @@
 </div>
 <div id="dialogo">
     <h2 id="texto-dialogo" class='text-center'>Com quem você mora?</h2>
-    <div class='row'>
-        <div class='opcao col-xs-2 col-xs-offset-5' ondrop="drop(event)" ondragover="allowDrop(event)" id='op'></div>
-    </div>
-    <div class='row' id='escolha-group'>
-        <div class='escolha-holder col-xs-2 col-xs-offset-1' ondrop="drop(event)" ondragover="allowDrop(event)" id='escolha-pai'>
-            <span class='escolha col-xs-2 col-xs-offset-1 text-center' id='pai' draggable="true" ondragend="setEscolha('pai')" ondragstart="drag(event)">Pai</span>
-        </div>
-        <div class='escolha-holder col-xs-2 ' ondrop="drop(event)" ondragover="allowDrop(event)" id='escolha-padrasto'>
-            <span class='escolha col-xs-2 col-xs-offset-1  text-center' id='padrasto' draggable="true" ondragstart="drag(event)" ondragend="setEscolha('padrasto')">Padrasto</span>
-        </div>
-        <div class='escolha-holder col-xs-2 col-xs-offset-2' ondrop="drop(event)" ondragover="allowDrop(event)" id='escolha-mae'>
-            <span class='escolha col-xs-2  col-xs-offset-2 text-center' id='mae' draggable="true" ondragstart="drag(event)"ondragend="setEscolha('mae')" >Mãe</span>
-        </div>
-        <div class='escolha-holder col-xs-2 ' ondrop="drop(event)" ondragover="allowDrop(event)" id='escolha-madrasta'>
-            <span class='escolha col-xs-2  text-center' id='madrasta' draggable="true" ondragstart="drag(event)"ondragend="setEscolha('madrasta')" >Madrasta</span>
-        </div>
-        <div class='escolha-holder col-xs-2 col-xs-offset-1' ondrop="drop(event)" ondragover="allowDrop(event)" id='escolha-irmao'>
-            <span class='escolha col-xs-2  text-center' id='irmao' draggable="true" ondragstart="drag(event)"ondragend="setEscolha('irmaos')" >Irmã(s) ou Irmão(s)</span>
-        </div>
-        <div class='escolha-holder col-xs-2 ' ondrop="drop(event)" ondragover="allowDrop(event)" id='escolha-avo'>
-            <span class='escolha col-xs-2  text-center' id='avo' draggable="true" ondragstart="drag(event)" ondragend="setEscolha('avo')" >Avó(s) ou avô(s)</span>
-        </div>
-        <div class='escolha-holder col-xs-2 col-xs-offset-2' ondrop="drop(event)" ondragover="allowDrop(event)" id='escolha-outro'>
-            <span class='escolha col-xs-2  text-center' id='outro' draggable="true" ondragstart="drag(event)"ondragend="setEscolha('outros')" >Outros</span>
-        </div>
-        <a  class="btn btn-primary btn-lg col-xs-2 col-xs-offset-5" id="enviar" onclick="verifica('pergunta4.php')"  >Próxima</a>
-    </div>
+    
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="">
+    Option one is this and that&mdash;be sure to include why it's great
+  </label>
+</div>
+<div class="checkbox disabled">
+  <label>
+    <input type="checkbox" value="" disabled>
+    Option two is disabled
+  </label>
+</div>
+
+<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+    Option one is this and that&mdash;be sure to include why it's great
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+    Option two can be something else and selecting it will deselect option one
+  </label>
+</div>
+<div class="radio disabled">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+    Option three is disabled
+  </label>
 </div>
   <?php require 'includes/js.php'; ?>
