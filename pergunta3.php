@@ -8,37 +8,48 @@
 </div>
 <div id="dialogo">
     <h2 id="texto-dialogo" class='text-center'>Com quem você mora?</h2>
-    
-</div>
-<div class="checkbox">
-  <label>
-    <input type="checkbox" value="">
-    Option one is this and that&mdash;be sure to include why it's great
-  </label>
-</div>
-<div class="checkbox disabled">
-  <label>
-    <input type="checkbox" value="" disabled>
-    Option two is disabled
-  </label>
-</div>
 
-<div class="radio">
-  <label>
-    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-    Option one is this and that&mdash;be sure to include why it's great
-  </label>
 </div>
-<div class="radio">
-  <label>
-    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-    Option two can be something else and selecting it will deselect option one
-  </label>
+<form action="cadastro/pergunta3.php"id="form-opcoes" method="post">
+    <div class="checkbox">
+        <label class="col-sm-2  col-sm-offset-2">
+            <input type="checkbox" value="Pai" name="opcao[]">
+            <p class="opc"> Pai</p>
+        </label>
+    </div>
+    <div class="checkbox">
+        <label class="col-sm-2  col-sm-offset-2">
+            <input type="checkbox" value="Mae" name="opcao[]">
+            <p class="opc"> Mãe</p>
+        </label>
+    </div>
+    <div class="checkbox">
+        <label class="col-sm-2  col-sm-offset-2">
+            <input type="checkbox" value="Padrasto" name="opcao[]">
+            <p class="opc"> Padrasto</p>
+        </label>
+    </div>
+    <div class="row"></div>
+    <div class="checkbox">
+        <label class="col-sm-2  col-sm-offset-2">
+            <input type="checkbox" value="Madrasta" name="opcao[]">
+            <p class="opc"> Madrasta</p>
+        </label>
+    </div><div class="checkbox">
+        <label class="col-sm-2  col-sm-offset-2">
+            <input type="checkbox" value="irmao" name="opcao[]">
+            <p class="opc"> Irmão(s) e/ou Irmã(s) </p>
+        </label>
+    </div><div class="checkbox">
+        <label class="col-sm-2  col-sm-offset-2">
+            <input type="checkbox" value="avo" name="opcao[]">
+            <p class="opc"> Avô ou Avó</p>
+        </label>
+    </div>
+    
+    <input class="btn btn-primary btn-lg col-xs-2 col-xs-offset-5" type=submit value="Próxima">
+</form>
+
+
 </div>
-<div class="radio disabled">
-  <label>
-    <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
-    Option three is disabled
-  </label>
-</div>
-  <?php require 'includes/js.php'; ?>
+<?php require 'includes/js.php'; ?>

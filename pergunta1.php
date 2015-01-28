@@ -21,7 +21,7 @@
     </div>
     <form action="cadastro/pergunta1.php" method="post">
         <?php $resposta =   "<script>getResposta()</script>" ?>
-        <input class="btn btn-primary btn-lg col-xs-2 col-xs-offset-5" type="submit" name="submit" value="Me aperte!" />
+       
     </form> 
     <a  class="btn btn-primary btn-lg col-xs-2 col-xs-offset-5" id="enviar"onclick="verifica('pergunta2.php')"  >Próxima</a>
 </div>
