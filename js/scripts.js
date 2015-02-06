@@ -48,8 +48,7 @@ function verifica(proxima) {
     } else {
         document.getElementById('campoResposta').value=getResposta();
         document.formularioResposta.submit();
-        alert(getResposta());
-//        window.location = proxima;
+       
     }
 }
 function allowDropOp(ev) {
