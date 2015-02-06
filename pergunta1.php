@@ -4,7 +4,7 @@
     <?php require 'includes/css.php'; ?>
 </head>
 <div id="img-fundo">
-    <img src="img/quadro1.png" class='center-block'>
+    <img src="img/cena1.png" class='center-block'>
 </div>
 <div id="dialogo">
     <h2 id="texto-dialogo" class='text-center'>Qual seu sexo?</h2>

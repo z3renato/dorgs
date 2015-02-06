@@ -4,7 +4,7 @@
     <?php require 'includes/css.php'; ?>
 </head>
 <div id="img-fundo">
-	<img src="img/cenario1-homem.png" class='center-block'>
+	<img src="img/cena3.png" class='center-block'>
 </div>
 <div id="dialogo">
     <div class="col-xs-offset-1 col-xs-10 caixa-dialogo" >Texto da História </div>
