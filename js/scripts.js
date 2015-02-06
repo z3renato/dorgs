@@ -44,11 +44,12 @@ function verifica(proxima) {
 
     if (getConteudo() == 0) {
         alert("Selecione uma opção!!!");
-
-    } else {
         
-        alert(escolha);
-        window.location = proxima;
+    } else {
+        document.getElementById('campoResposta').value=getResposta();
+        document.formularioResposta.submit();
+        alert(getResposta());
+//        window.location = proxima;
     }
 }
 function allowDropOp(ev) {
