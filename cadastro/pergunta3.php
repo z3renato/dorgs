@@ -14,8 +14,8 @@ if (isset($_POST["opcao"])) {
     // alguma opção foi marcada
     header('location:../pergunta4.php');
 } else {
-    echo "<script>alert('Selecione alguma opção!');";
-    header('location:../pergunta3.php');
+    echo"<script type='text/javascript'> alert('Selecione alguma opção!.');  </script>\n";
+//    header('location:../pergunta3.php');
 }
 
 
