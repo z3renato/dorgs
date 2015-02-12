@@ -25,7 +25,7 @@
         <div class='escolha-holder col-xs-2 col-xs-offset-1' ondrop="drop(event)" ondragover="allowDrop(event)" >
             <span class='escolha col-xs-2  text-center' draggable="true" id="outro" ondragstart="drag(event)">Outro:</span>
         </div>	
-       <a  class="btn btn-primary btn-lg col-xs-2 col-xs-offset-5" id="enviar"onclick="verifica('inicioHistoria.php')"  >Próxima</a>
+       <a  class="btn btn-primary btn-lg col-xs-2 col-xs-offset-5" id="enviar"onclick="verifica('')"  >Próxima</a>
     </div>
 </div>
 <?php require 'includes/js.php'; ?>
